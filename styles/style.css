@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Grape Nuts', cursive;
+  color: aliceblue;
+}
+
+body {
+  background-image: url("../images/quadroNegro.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+}
+
+body .container {
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container h1 {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+body .container label {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+body .container input {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+body .container .calcular {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+body .container .calcular button {
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+body .container .results {
+  border: 3px dotted;
+  width: 70%;
+  text-align: left;
+  margin: auto;
+  font-size: 1.3rem;
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
+body .container .results p {
+  margin-left: 30%;
+}
+
+.p {
+  color: black;
+  font-weight: bold;
+  margin-top: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */
